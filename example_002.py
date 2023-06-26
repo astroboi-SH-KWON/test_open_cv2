@@ -2,7 +2,7 @@ import cv2
 import os
 
 # 이미지 불러오기
-img_color = cv2.imread('billiard.jpg', cv2.IMREAD_COLOR)  # cv2.IMREAD_COLOR, cv2.IMREAD_GRAYSCALE
+img_color = cv2.imread('./image_file/billiard.jpg', cv2.IMREAD_COLOR)  # cv2.IMREAD_COLOR, cv2.IMREAD_GRAYSCALE
                                                         # , cv2.IMREAD_UNCHANGED (투명도 정보 가진 이미지 파일)
 
 # print(type(img_color))
